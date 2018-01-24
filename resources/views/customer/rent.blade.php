@@ -58,36 +58,13 @@
                         </div>
                     </div>
 
-                    {{--<div class="form-group col-sm-12 custom-form-divider"></div>--}}
-
                     <div id="form_master">
                         <div id="available_inventory">
 
-                            {{--<div class="col-sm-6 col-md-4">--}}
-                                {{--<div class="thumbnail">--}}
-                                    {{--<img src="{{ asset('customer_assets/img/inventory/Proyektor.png') }}" alt="...">--}}
-                                    {{--<div class="caption custom-center-inventory-title">--}}
-                                        {{--<h3>Proyektor</h3>--}}
-
-                                        {{--<div class="custom-right-text-align">--}}
-                                            {{--<select class="custom-inventory-quantity">--}}
-                                                {{--<option value = "0">0</option>--}}
-                                                {{--<option value = "1">1</option>--}}
-                                                {{--<option value = "2">2</option>--}}
-                                                {{--<option value = "3">3</option>--}}
-                                            {{--</select>--}}
-                                        {{--</div>--}}
-
-                                    {{--</div>--}}
-                                {{--</div>--}}
-                            {{--</div>--}}
-
                         </div>
 
-                        {{--<div class="form-group col-sm-12 custom-form-divider"></div>--}}
-
                         <div id="customer_identity">
-                            <div class="form form-group col col-sm-12">
+                            <div class="form form-group col col-xs-12">
                                 <div class="form-group">
                                     <label class="custom-form-text" for="name">Name:</label>
                                     <input name="customer_name" type="text" class="form-control custom-form-border" id="name" placeholder="ex: Nyoman Abiwinanda">
