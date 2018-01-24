@@ -98,7 +98,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="custom-form-text" for="organization">Organisasi:</label>
-                                    <input name="customer_organization" type="text" class="form-control custom-form-border" id="organization" placeholder="ex: URO">
+                                    <input name="customer_organization" type="text" class="form-control custom-form-border" id="organization" placeholder="ex: HME">
                                 </div>
                                 <div class="form-group">
                                     <label class="custom-form-text" for="email">Email:</label>
@@ -310,6 +310,7 @@
                     $qty_8 = ($('#Terminal_Kabel_Panjang_Qty').val() != null) ? $('#Terminal_Kabel_Panjang_Qty').val() : 0;
                     $qty_9 = ($('#Speaker_Indoor_Qty').val() != null) ? $('#Speaker_Indoor_Qty').val() : 0;
                     $qty_10 = ($('#Speaker_Outdoor_Qty').val() != null) ? $('#Speaker_Outdoor_Qty').val() : 0;
+                    $qty_11 = ($('#Mixer_Qty').val() != null) ? $('#Mixer_Qty').val() : 0;
 
                     // AJAX
                     $.ajax({
@@ -332,10 +333,10 @@
                             7: $qty_7,
                             8: $qty_8,
                             9: $qty_9,
-                            10: $qty_10
+                            10: $qty_10,
+                            11: $qty_11
                         },
                         success: function(data) {
-
                             // Empty the html
                             modal_body.empty();
 
