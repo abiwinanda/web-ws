@@ -285,7 +285,6 @@
                     // validation success. No error
                     customer_validation_modal.modal('show');
                     showFormInfo();
-                    
                 }
 
                 function showFormInfo() {
